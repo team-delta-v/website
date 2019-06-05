@@ -36,6 +36,10 @@ export default () => (
               see the recent news without clutter or ads. Users can gauge
               reliability and bias of their news using our custom machine
               learning model.
+              <img
+                src="https://cdn.discordapp.com/attachments/583367531406950431/585936310166880266/unknown.png"
+                alt="News 451 website"
+              />
             </td>
             <td>
               1st Place for Civic Track in the Sixth Baltimore Hackathon at
