@@ -13,7 +13,7 @@ export default () => (
             Delta V
           </h1>
           <p style={{ textAlign: 'center' }}>
-            Daniel Huang • Havish Netla • Jeffrey Yang • Max Bollis
+            Daniel Huang • Havish Netla • Jeffrey Yang • Max Hollis
           </p>
           <br style={{ height: '30px' }} />
           <p>
