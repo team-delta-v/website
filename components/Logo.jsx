@@ -8,13 +8,12 @@ export default () => (
         .text {
           color: orange;
 
-          font-size: 40vmin;
+          font-size: 80vmin;
           font-family: Jura, Roboto, sans-serif;
           font-weight: 400;
 
-          width: 100%;
           text-align: center;
-          overflow: hidden;
+          overflow: visible;
           margin: 0;
 
           user-select: none;

@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 export default ({ children }) => (
-  <div>
+  <>
     <Head>
       <link
         href="https://fonts.googleapis.com/css?family=Josefin+Sans|Jura|Roboto:400,500&display=swap"
@@ -20,7 +20,7 @@ export default ({ children }) => (
         fontWeight: 400,
       }}
     >
-      <div>{children}</div>
+      {children}
       <style jsx global>
         {`
           body {
@@ -31,8 +31,17 @@ export default ({ children }) => (
           ::-webkit-scrollbar {
             display: none;
           }
+
+          h1,
+          h2,
+          h3,
+          h4,
+          h5,
+          h6 {
+            font-weight: 500;
+          }
         `}
       </style>
     </div>
-  </div>
+  </>
 )
