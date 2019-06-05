@@ -6,7 +6,7 @@ export default () => (
     <style jsx>
       {`
         .text {
-          color: yellow;
+          color: orange;
 
           font-size: 40vmin;
           font-family: Jura, Roboto, sans-serif;
