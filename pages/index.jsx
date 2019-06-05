@@ -17,7 +17,6 @@ export default () => (
           }}
         >
           <div style={{ margin: '15px' }}>
-            <br style={{ height: '20vh' }} />
             <div style={{ maxWidth: '800px', margin: 'auto' }}>
               <Intro />
               <Projects />

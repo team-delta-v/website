@@ -1,6 +1,14 @@
 export default () => (
   <div>
-    <h1 style={{ fontSize: '70px', textAlign: 'center', margin: 0 }}>
+    <br style={{ height: '20vh' }} />
+    <h1
+      style={{
+        fontSize: '70px',
+        textAlign: 'center',
+        margin: 0,
+        marginTop: '60px',
+      }}
+    >
       Delta V
     </h1>
     <p style={{ textAlign: 'center' }}>
