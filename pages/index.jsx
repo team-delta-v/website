@@ -10,10 +10,21 @@ export default () => (
         <Logo />
       </div>
       <div className="parallax-layer parallax-layer-base">
-        <br style={{ height: '10vh' }} />
-        <Intro />
-        <Projects />
-        <br />
+        <div
+          style={{
+            background: '#292a36',
+            boxShadow: '0px -5px 8px 0 rgba(0,0,0,0.2)',
+          }}
+        >
+          <div style={{ margin: '15px' }}>
+            <br style={{ height: '20vh' }} />
+            <div style={{ maxWidth: '800px', margin: 'auto' }}>
+              <Intro />
+              <Projects />
+              <br />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <style jsx global>

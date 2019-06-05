@@ -13,7 +13,6 @@ export default ({ children }) => (
       style={{
         fontFamily: 'Roboto',
         color: 'white',
-        maxWidth: '800px',
         margin: 'auto',
         textAlign: 'justify',
         lineHeight: 1.5,
