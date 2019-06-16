@@ -1,6 +1,8 @@
+import Names from './Names'
+
 export default () => (
   <div>
-    <br style={{ height: '20vh' }} />
+    <br />
     <h1
       style={{
         fontSize: '70px',
@@ -11,10 +13,8 @@ export default () => (
     >
       Delta V
     </h1>
-    <p style={{ textAlign: 'center' }}>
-      Daniel Huang • Havish Netla • Jeffrey Yang • Max Hollis
-    </p>
-    <br style={{ height: '30px' }} />
+    <Names />
+    <br />
     <p>
       We are a team of high school students based in Maryland who compete in
       hackathons to practice our programming skills and win prizes.
