@@ -1,0 +1,21 @@
+{
+  "short_name": "ΔV",
+  "name": "Delta V",
+  "icons": [
+    {
+      "src": "/static/icon.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/static/icon192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#292a36",
+  "display": "fullscreen",
+  "scope": "/",
+  "theme_color": "#292a36"
+}

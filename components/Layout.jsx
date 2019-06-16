@@ -7,6 +7,9 @@ export default ({ children }) => (
         href="https://fonts.googleapis.com/css?family=Josefin+Sans|Jura|Roboto:400,500&display=swap"
         rel="stylesheet"
       />
+      <link rel="icon" type="image/png" href="/static/icon.png" />
+      <meta name="theme-color" content="#292a36" />
+      <link rel="manifest" href="/static/manifest.json" />
       <title>Delta V</title>
     </Head>
     <div
