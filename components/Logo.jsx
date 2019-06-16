@@ -4,14 +4,16 @@ import io from 'socket.io-client'
 import { ClocksyClient } from 'clocksy'
 
 const colormap = interpolate([
-  '#d60c0c',
+  '#ff0000',
   '#ffae00',
   '#ffe900',
   '#15ff00',
   '#00ffe5',
   '#2237d6',
   '#5d00c1',
-  '#d60c0c',
+  '#ff00ff',
+  '#a3007a',
+  '#ff0000',
 ])
 
 function reduce(time) {
@@ -19,10 +21,11 @@ function reduce(time) {
 }
 
 function getColor(time) {
-  const direction = (time / 15) % 360
+  const direction = (time / 40) % 360
   const color1 = colormap(reduce(time - 4000))
-  const color2 = colormap(reduce(time))
-  return `linear-gradient(${direction}deg, ${color1}, ${color2})`
+  const color2 = colormap(reduce(time - 2000))
+  const color3 = colormap(reduce(time))
+  return `linear-gradient(${direction}deg, ${color1}, ${color2}, ${color3})`
 }
 
 export default class extends React.Component {
