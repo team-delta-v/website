@@ -4,13 +4,13 @@ import io from 'socket.io-client'
 import { ClocksyClient } from 'clocksy'
 
 const colormap = interpolate([
-  'red',
-  'yellow',
-  'lime',
-  'aqua',
-  'blue',
-  'purple',
-  'red',
+  '#d60c0c',
+  '#ffe900',
+  '#72ff00',
+  '#00ffe5',
+  '#2237d6',
+  '#a322d6',
+  '#d60c0c',
 ])
 
 function reduce(time) {
