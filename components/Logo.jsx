@@ -5,6 +5,7 @@ import { ClocksyClient } from 'clocksy'
 
 const colormap = interpolate([
   '#d60c0c',
+  '#ffae00',
   '#ffe900',
   '#15ff00',
   '#00ffe5',
