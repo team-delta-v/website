@@ -4,14 +4,17 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "eslint-config-lemon": "^0.3.1"
+    "eslint-config-lemon": "^0.4.7"
   },
   "dependencies": {
+    "clocksy": "^1.1.0",
+    "color-interpolate": "^1.0.4",
     "next": "^8.1.0",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.8",
     "react-dom": "^16.8.6",
-    "react-grid-system": "^4.4.6"
+    "react-grid-system": "^4.4.6",
+    "socket.io-client": "^2.2.0"
   },
   "scripts": {
     "dev": "next",
