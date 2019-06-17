@@ -4629,10 +4629,10 @@ inquirer@^6.2.0, inquirer@^6.2.2:
     strip-ansi "^5.1.0"
     through "^2.3.6"
 
-internet-time@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/internet-time/-/internet-time-0.0.2.tgz#99acea9600cbb63a27165dd7c691e4e18cb6fb92"
-  integrity sha512-qlx/VNwCNKu02yXUuB7K9P3nKp4QFDjAkG47e89dSnNs5cBBpLxzE1Off/hXMfv0YyI/KCu0aE8/Q9BjDC2QZw==
+internet-time@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/internet-time/-/internet-time-0.0.3.tgz#29b1835c29b242d2add5a45b66da79a3bc239425"
+  integrity sha512-TOux+af6k0CMeIRdz6EN+O3fkeqnJij7dqYmk7EO6vsbLBlyUgzzqDFrz0PO+tdGHOU/n9PUmD1smFaI2bylIg==
   dependencies:
     clocksy "^1.1.0"
     socket.io-client "^2.2.0"
