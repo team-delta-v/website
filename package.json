@@ -9,6 +9,7 @@
   "dependencies": {
     "clocksy": "^1.1.0",
     "color-interpolate": "^1.0.4",
+    "internet-time": "^0.0.2",
     "next": "^8.1.0",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.8",

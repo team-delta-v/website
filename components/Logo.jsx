@@ -1,7 +1,6 @@
 import React from 'react'
 import interpolate from 'color-interpolate'
-import io from 'socket.io-client'
-import { ClocksyClient } from 'clocksy'
+import clock from 'internet-time'
 
 const colormap = interpolate([
   '#ff0000',
@@ -29,38 +28,22 @@ function getColor(time) {
 }
 
 export default class extends React.Component {
-  state = { delta: 0 }
+  state = {}
 
   componentDidMount() {
+    window.addEventListener('load', () => {
+      this.setState({ loaded: true })
+    })
     this.animate()
-
-    this.socket = io('https://ntp.glitch.me/', { transports: ['websocket'] })
-    this.clocksy = new ClocksyClient({
-      sendRequest: data => {
-        this.socket.emit('t', data)
-      },
-      updatePeriod: 500,
-      alpha: 0.05,
-    })
-
-    this.socket.on('connect', () => this.clocksy.start())
-    this.socket.on('disconnect', () => this.clocksy.stop())
-
-    this.socket.on('t', data => {
-      const delta = this.clocksy.processResponse(data)
-      this.setState({ delta })
-    })
   }
 
   componentWillUnmount() {
     cancelAnimationFrame(this.raf)
-    this.socket.close()
-    this.clocksy.stop()
   }
 
   animate = () => {
     this.raf = requestAnimationFrame(() => {
-      const time = Date.now() + this.state.delta
+      const time = clock.now()
       this.setState({ color: getColor(time) })
       this.animate()
     })
@@ -76,6 +59,9 @@ export default class extends React.Component {
           {`
             .text {
               background: ${this.state.color};
+
+              opacity: ${this.state.loaded ? 1 : 0};
+              transition: opacity 300ms;
 
               -webkit-background-clip: text;
               -webkit-text-fill-color: transparent;

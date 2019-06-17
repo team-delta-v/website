@@ -4629,6 +4629,14 @@ inquirer@^6.2.0, inquirer@^6.2.2:
     strip-ansi "^5.1.0"
     through "^2.3.6"
 
+internet-time@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/internet-time/-/internet-time-0.0.2.tgz#99acea9600cbb63a27165dd7c691e4e18cb6fb92"
+  integrity sha512-qlx/VNwCNKu02yXUuB7K9P3nKp4QFDjAkG47e89dSnNs5cBBpLxzE1Off/hXMfv0YyI/KCu0aE8/Q9BjDC2QZw==
+  dependencies:
+    clocksy "^1.1.0"
+    socket.io-client "^2.2.0"
+
 invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
