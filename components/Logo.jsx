@@ -66,7 +66,7 @@ export default class extends React.Component {
               -webkit-background-clip: text;
               -webkit-text-fill-color: transparent;
 
-              font-size: 80vmin;
+              font-size: 100vmin;
               font-family: Jura, Roboto, sans-serif;
               font-weight: 400;
 
