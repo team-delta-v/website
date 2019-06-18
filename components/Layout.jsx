@@ -4,7 +4,7 @@ export default ({ children }) => (
   <>
     <Head>
       <link
-        href="https://fonts.googleapis.com/css?family=Josefin+Sans|Jura|Roboto:400,500&display=swap"
+        href="https://fonts.googleapis.com/css?family=Roboto:400,500|Comfortaa:300,400,500,600,700&display=swap&subset=cyrillic,cyrillic-ext,greek,latin-ext,vietnamese"
         rel="stylesheet"
       />
       <title>Delta V</title>
