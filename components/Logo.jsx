@@ -70,7 +70,7 @@ export default class extends React.Component {
               font-family: Comfortaa, Roboto, sans-serif;
               font-weight: 300;
 
-              transform: scale(1.01, 1);
+              transform: scale(1.01, 1) translateY(6%);
 
               text-align: center;
               overflow: visible;
