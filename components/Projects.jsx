@@ -5,7 +5,7 @@ export default () => (
     <Project
       name="News451"
       img="https://cdn.discordapp.com/attachments/583367531406950431/591331216989356063/news451big.png"
-      description="News 451 is a minimalistic web application that allows users to see the recent news without clutter or ads. Users can gauge reliability and bias of their news using our custom machine learning model."
+      description="News451 is a minimalistic web application that allows users to see the recent news without clutter or ads. Users can gauge reliability and bias of their news using our custom machine learning model."
       icon="https://pbs.twimg.com/profile_images/839515548333420545/ThVZeSAJ_400x400.jpg"
       prizeDescription="1st place at the Sixth Baltimore Hackathon"
       prize="$1000"

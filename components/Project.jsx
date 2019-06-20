@@ -2,12 +2,7 @@ import React from 'react'
 
 export default props => (
   <div style={{ marginTop: '100px', marginBottom: '100px' }}>
-    <div
-      style={{
-        justifyContent: 'center',
-        textAlign: 'center',
-      }}
-    >
+    <div>
       <h1>{props.name}</h1>
       <img alt="News451" src={props.img} />
     </div>
@@ -15,17 +10,20 @@ export default props => (
     <div
       style={{
         display: 'flex',
+        flexDirection: 'column',
         justifyContent: 'center',
         paddingTop: '50px',
       }}
     >
-      <img
-        alt="bmore"
-        src={props.icon}
-        style={{ width: '100px', height: '100px', borderRadius: '50%' }}
-      />
+      <div>
+        <img
+          alt="icon"
+          src={props.icon}
+          style={{ width: '100px', height: '100px', borderRadius: '50%' }}
+        />
+      </div>
 
-      <div style={{ paddingLeft: '50px' }}>
+      <div style={{ paddingLeft: '50px', paddingRight: '50px' }}>
         <h3 style={{ fontSize: '1.625em' }}>
           <b>Awarded</b>
         </h3>
@@ -40,7 +38,7 @@ export default props => (
           font-size: 3.5em;
         }
         h3 {
-          margin: 0px 0px 0px 0px;
+          margin: 0;
         }
         img {
           width: 100%;

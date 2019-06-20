@@ -1,7 +1,7 @@
 import Names from './Names'
 
 export default () => (
-  <div style={{}}>
+  <div>
     <br />
     <h1
       style={{
