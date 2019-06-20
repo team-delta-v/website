@@ -6,9 +6,7 @@ import Intro from '../components/Intro'
 export default () => (
   <Layout>
     <div className="parallax">
-      <div className="parallax-layer parallax-layer-back">
-        <Logo />
-      </div>
+      <div className="parallax-layer parallax-layer-back">{/* <Logo /> */}</div>
       <div className="parallax-layer parallax-layer-base">
         <div
           style={{
@@ -17,7 +15,7 @@ export default () => (
           }}
         >
           <div style={{ margin: '15px' }}>
-            <div style={{ maxWidth: '800px', margin: 'auto' }}>
+            <div style={{ maxWidth: '1000px', margin: 'auto' }}>
               <Intro />
               <Projects />
               <br />
