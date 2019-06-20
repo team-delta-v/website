@@ -20,7 +20,7 @@ export default () => (
       name="Rocket Launch"
       img="https://cdn.discordapp.com/attachments/583367531406950431/591332501931163816/rocketbig.png"
       description="Rocket Launch is an intuitive web application that allows the user plan seeing rocket launches. The software displays future rocket launch data, international launch sites, and atmospheric conditions."
-      icon="http://static1.squarespace.com/static/56beda9601dbaed289db4f1d/t/58ccfff7725e25717a2d6b39/1537751827319/?format=1500w"
+      icon="https://static1.squarespace.com/static/56beda9601dbaed289db4f1d/t/58ccfff7725e25717a2d6b39/1537751827319/?format=1500w"
       prizeDescription="2nd Place and Global Nominee in the 2018 Space Apps Challenge at Johns Hopkins University"
       prize="$500"
     />
