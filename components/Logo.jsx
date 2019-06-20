@@ -53,22 +53,28 @@ export default class extends React.Component {
     return (
       <div>
         <div className="container">
-          <p className="text">ΔV</p>
+          <p
+            className="text"
+            style={{
+              backgroundImage: this.state.color,
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+            }}
+          >
+            ΔV
+          </p>
         </div>
         <style jsx>
           {`
             .text {
-              background: ${this.state.color};
-
               opacity: ${this.state.loaded ? 1 : 0};
               transition: opacity 300ms;
 
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;
+              font-size: 80vmin;
+              font-family: Comfortaa, Roboto, sans-serif;
+              font-weight: 300;
 
-              font-size: 100vmin;
-              font-family: Jura, Roboto, sans-serif;
-              font-weight: 400;
+              transform: scale(1.01, 1) translateY(6%);
 
               text-align: center;
               overflow: visible;
