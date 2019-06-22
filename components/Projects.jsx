@@ -1,4 +1,5 @@
 import Project from './Project'
+import Seperator from './Seperator'
 
 export default () => (
   <div style={{ paddingTop: '15px' }}>
@@ -10,12 +11,7 @@ export default () => (
       prizeDescription="1st place at the Sixth Baltimore Hackathon"
       prize="$1000"
     />
-    <hr
-      style={{
-        marginLeft: '-50vw',
-        marginRight: '-50vw',
-      }}
-    />
+    <Seperator />
     <Project
       name="Rocket Launch"
       img="/static/rocket.png"
@@ -24,15 +20,5 @@ export default () => (
       prizeDescription="2nd Place and Global Nominee in the 2018 Space Apps Challenge at Johns Hopkins University"
       prize="$500"
     />
-    <style jsx>
-      {`
-        img {
-          max-width: 100%;
-        }
-        hr {
-          border: 1px solid #383a46;
-        }
-      `}
-    </style>
   </div>
 )
