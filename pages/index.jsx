@@ -6,9 +6,7 @@ import Intro from '../components/Intro'
 export default () => (
   <Layout>
     <div className="parallax">
-      <div className="parallax-layer parallax-layer-back">
-        <Logo />
-      </div>
+      <div className="parallax-layer parallax-layer-back"></div>
       <div className="parallax-layer parallax-layer-base">
         <div
           style={{

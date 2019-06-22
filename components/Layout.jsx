@@ -14,7 +14,6 @@ export default ({ children }) => (
         fontFamily: 'Roboto',
         color: 'white',
         margin: 'auto',
-        textAlign: 'justify',
         lineHeight: 1.5,
         fontWeight: 400,
       }}

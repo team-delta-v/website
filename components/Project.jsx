@@ -2,28 +2,32 @@ import React from 'react'
 
 export default props => (
   <div style={{ marginTop: '100px', marginBottom: '100px' }}>
-    <div>
+    <div
+      style={{
+        justifyContent: 'center',
+        textAlign: 'center',
+      }}
+    >
       <h1>{props.name}</h1>
-      <img alt="News451" src={props.img} />
+      <img alt="Project" src={props.img} />
     </div>
     <p>{props.description}</p>
     <div
       style={{
         display: 'flex',
-        flexDirection: 'column',
         justifyContent: 'center',
         paddingTop: '50px',
       }}
+      id="container"
     >
-      <div>
-        <img
-          alt="icon"
-          src={props.icon}
-          style={{ width: '100px', height: '100px', borderRadius: '50%' }}
-        />
-      </div>
+      <img
+        alt="Icon"
+        src={props.icon}
+        style={{ width: '100px', height: '100px', borderRadius: '50%' }}
+        id="logo"
+      />
 
-      <div style={{ paddingLeft: '50px', paddingRight: '50px' }}>
+      <div style={{ padding: '0px 50px 0px 50px' }} id="award">
         <h3 style={{ fontSize: '1.625em' }}>
           <b>Awarded</b>
         </h3>
@@ -34,11 +38,24 @@ export default props => (
     </div>
     <style jsx>
       {`
+        @media screen and (max-width: 1200px) {
+          #award {
+            text-align: center;
+            margin: auto;
+          }
+          #container {
+            flex-direction: column;
+          }
+          #logo {
+            transform: scale(0.75);
+            margin: auto;
+          }
+        }
         h1 {
           font-size: 3.5em;
         }
         h3 {
-          margin: 0;
+          margin: 0px 0px 0px 0px;
         }
         img {
           width: 100%;
