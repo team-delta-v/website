@@ -1,7 +1,14 @@
 import React from 'react'
+import Award from './Award'
 
 export default props => (
-  <div style={{ marginTop: '100px', marginBottom: '100px' }}>
+  <div
+    style={{
+      padding: '30px',
+      marginTop: '30px',
+      marginBottom: '30px',
+    }}
+  >
     <div
       style={{
         justifyContent: 'center',
@@ -12,29 +19,13 @@ export default props => (
       <img alt="Project" src={props.img} />
     </div>
     <p>{props.description}</p>
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        paddingTop: '50px',
-      }}
-      id="container"
-    >
-      <img
-        alt="Icon"
-        src={props.icon}
-        style={{ width: '100px', height: '100px', borderRadius: '50%' }}
-        id="logo"
+    <div>
+      <Award
+        prize={props.prize}
+        icon={props.icon}
+        prizeDescription={props.prizeDescription}
+        place={props.place}
       />
-
-      <div style={{ padding: '0px 50px 0px 50px' }} id="award">
-        <h3 style={{ fontSize: '1.625em' }}>
-          <b>Awarded</b>
-        </h3>
-        <p style={{ marginTop: '10px' }}>
-          {props.prizeDescription} <br />({props.prize})
-        </p>
-      </div>
     </div>
     <style jsx>
       {`
