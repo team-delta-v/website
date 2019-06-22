@@ -27,5 +27,18 @@ export default props => (
         place={props.place}
       />
     </div>
+    <style jsx>
+      {`
+        h1 {
+          font-size: 3.5em;
+        }
+        h3 {
+          margin: 0;
+        }
+        img {
+          max-width: 100%;
+        }
+      `}
+    </style>
   </div>
 )
