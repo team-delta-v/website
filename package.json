@@ -22,6 +22,6 @@
     "start": "next start",
     "export": "next build && next export",
     "build": "next build",
-    "test": "eslint ."
+    "test": "eslint **/*.jsx"
   }
 }
