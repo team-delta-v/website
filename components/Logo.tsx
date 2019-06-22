@@ -15,11 +15,11 @@ const colormap = interpolate([
   '#ff0000',
 ])
 
-function reduce(time) {
+function reduce(time: number) {
   return (time / 20000) % 1
 }
 
-function getColor(time) {
+function getColor(time: number) {
   const direction = (time / 40) % 360
   const color1 = colormap(reduce(time - 4000))
   const color2 = colormap(reduce(time - 2000))
@@ -28,7 +28,9 @@ function getColor(time) {
 }
 
 export default class extends React.Component {
-  state = {}
+  state: { color?: string; loaded?: boolean } = {}
+
+  raf = 0
 
   componentDidMount() {
     window.addEventListener('load', () => {

@@ -1,6 +1,8 @@
+import React from 'react'
+
 import Head from 'next/head'
 
-export default ({ children }) => (
+const Layout: React.FunctionComponent = ({ children }) => (
   <>
     <Head>
       <link
@@ -44,3 +46,5 @@ export default ({ children }) => (
     </div>
   </>
 )
+
+export default Layout
