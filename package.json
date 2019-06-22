@@ -4,12 +4,18 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "eslint-config-lemon": "^0.4.7"
+    "eslint-config-lemon": "^0.4.8"
   },
   "dependencies": {
+    "@types/next": "^8.0.5",
+    "@types/react": "^16.8.22",
+    "@types/react-dom": "^16.8.4",
+    "@types/styled-jsx": "^2.2.8",
+    "@zeit/next-typescript": "^1.1.1",
     "clocksy": "^1.1.0",
     "color-interpolate": "^1.0.4",
-    "internet-time": "^0.0.3",
+    "internet-time": "^0.0.5",
+    "lemon-ts": "^1.4.11",
     "next": "^8.1.0",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.8",
