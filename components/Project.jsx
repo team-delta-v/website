@@ -27,31 +27,5 @@ export default props => (
         place={props.place}
       />
     </div>
-    <style jsx>
-      {`
-        @media screen and (max-width: 1200px) {
-          #award {
-            text-align: center;
-            margin: auto;
-          }
-          #container {
-            flex-direction: column;
-          }
-          #logo {
-            transform: scale(0.75);
-            margin: auto;
-          }
-        }
-        h1 {
-          font-size: 3.5em;
-        }
-        h3 {
-          margin: 0px 0px 0px 0px;
-        }
-        img {
-          width: 100%;
-        }
-      `}
-    </style>
   </div>
 )
