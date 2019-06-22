@@ -21,6 +21,7 @@
     "dev": "next",
     "start": "next start",
     "export": "next build && next export",
-    "build": "next build"
+    "build": "next build",
+    "test": "eslint ."
   }
 }
