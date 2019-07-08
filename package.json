@@ -10,7 +10,7 @@
     "clocksy": "^1.1.0",
     "color-interpolate": "^1.0.4",
     "internet-time": "^0.0.5",
-    "next": "^8.1.0",
+    "next": "^9.0.0",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.8",
     "react-dom": "^16.8.6",
