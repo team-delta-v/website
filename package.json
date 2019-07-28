@@ -4,13 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "eslint-config-lemon": "^0.4.7"
+    "eslint-config-lemon": "0.4.10"
   },
   "dependencies": {
     "clocksy": "^1.1.0",
     "color-interpolate": "^1.0.4",
-    "internet-time": "^0.0.3",
-    "next": "^8.1.0",
+    "internet-time": "^0.0.5",
+    "next": "^9.0.0",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.8",
     "react-dom": "^16.8.6",
