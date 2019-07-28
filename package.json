@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "eslint-config-lemon": "0.4.7"
+    "eslint-config-lemon": "0.4.10"
   },
   "dependencies": {
     "clocksy": "^1.1.0",
