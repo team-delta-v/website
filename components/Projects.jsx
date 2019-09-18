@@ -1,6 +1,16 @@
 export default () => (
   <div>
     <h2>Our Projects</h2>
+    <h3>InsightAI</h3>
+    <p>
+      Deep learning live object and depth recognition with binaural AR audio
+      spatialization and text-to-speech to help the visually impaired see the
+      world with sound using only a smartphone and headphones.
+    </p>
+    <p>
+      Top 10 out of 240 college-level teams and 1st Place for Best Hack that
+      Helps the Community presented by CBRE
+    </p>
     <h3>News 451</h3>
     <p>
       News 451 is a minimalistic web application that allows users to see the
