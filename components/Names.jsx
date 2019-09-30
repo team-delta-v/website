@@ -3,15 +3,15 @@ export default () => (
     <tbody>
       <tr className="names">
         <td>Daniel Huang</td>
-        <td>Havish Netla</td>
         <td>Jeffrey Yang</td>
+        <td>Havish Netla</td>
         <td>Max Hollis</td>
       </tr>
       <tr className="roles">
-        <td>FE/BE</td>
-        <td>FE/ML</td>
-        <td>UI/UX</td>
-        <td>ML/UX</td>
+        <td>President + Lead Dev</td>
+        <td>Machine Learning + AI</td>
+        <td>Frontend + Backend</td>
+        <td>Graphics + Design</td>
       </tr>
     </tbody>
     <style jsx>{`
@@ -34,8 +34,9 @@ export default () => (
       }
 
       .roles {
-        font-size: 0.8em;
+        font-size: 0.75em;
         color: lightgrey;
+        text-transform: uppercase;
       }
     `}</style>
   </table>
