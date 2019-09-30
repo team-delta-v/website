@@ -8,10 +8,10 @@ export default () => (
         <td>Max Hollis</td>
       </tr>
       <tr className="roles">
-        <td>President + Lead Dev</td>
-        <td>Machine Learning + AI</td>
-        <td>Frontend + Backend</td>
-        <td>Graphics + Design</td>
+        <td>President</td>
+        <td>Machine Learning</td>
+        <td>Full Stack</td>
+        <td>User Interface</td>
       </tr>
     </tbody>
     <style jsx>{`
