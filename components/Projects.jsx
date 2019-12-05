@@ -1,6 +1,17 @@
 export default () => (
   <div>
     <h2>Our Projects</h2>
+    <h3>InfernoAI</h3>
+    <p>
+      Machine learning wildfire prediction platform that leverages NASA
+      satellite data, temperature data, and humidity data to predict possible
+      future wildfires, allowing users to monitor locations and be alerted when
+      there is a high risk of a wildfire.
+    </p>
+    <p>
+      Global Nominee and People&apos;s Choice Award Winner at the 2018 Space
+      Apps Challenge in Washington DC
+    </p>
     <h3>InsightAI</h3>
     <p>
       Deep learning live object and depth recognition with binaural AR audio
