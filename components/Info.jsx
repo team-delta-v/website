@@ -2,7 +2,6 @@ import { useIntersection } from 'react-use'
 import { useRef } from 'react'
 import Projects from './Projects'
 import Intro from './Intro'
-import Footer from './Footer'
 
 export default () => {
   const scrollRef = useRef()
