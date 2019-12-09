@@ -1,7 +1,7 @@
 import Award from './Award'
 import ExternalLink from './ExternalLink'
 
-export default ({ light }) => {
+export default () => {
   return (
     <div>
       <h2>Our Projects</h2>
