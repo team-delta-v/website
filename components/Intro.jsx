@@ -1,6 +1,6 @@
 import Names from './Names'
 
-export default () => (
+export default ({ light }) => (
   <div>
     <br />
     <h1
@@ -13,11 +13,15 @@ export default () => (
     >
       Delta V
     </h1>
-    <Names />
-    <br />
-    <p>
-      We are a team of high school students based in Maryland who compete in
-      hackathons to practice our programming skills and win prizes.
+
+    <Names light={light} />
+    <p
+      style={{
+        textAlign: 'center',
+        fontSize: '25px',
+      }}
+    >
+      Maryland&apos;s top high school hackathon team
     </p>
   </div>
 )

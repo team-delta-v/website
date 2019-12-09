@@ -1,17 +1,25 @@
-export default () => (
+import ExternalLink from './ExternalLink'
+
+export default ({ light }) => (
   <table>
     <tbody>
       <tr className="names">
-        <td>Daniel Huang</td>
-        <td>Havish Netla</td>
-        <td>Jeffrey Yang</td>
+        <td>
+          <ExternalLink href="https://dan.js.org">Daniel Huang</ExternalLink>
+        </td>
+        <td>
+          <ExternalLink href="https://jefferyy.dev">Jeffrey Yang</ExternalLink>
+        </td>
+        <td>
+          <ExternalLink href="https://havish.dev">Havish Netla</ExternalLink>
+        </td>
         <td>Max Hollis</td>
       </tr>
       <tr className="roles">
-        <td>FE/BE</td>
-        <td>FE/ML</td>
-        <td>UI/UX</td>
-        <td>ML/UX</td>
+        <td>President + Lead Dev</td>
+        <td>Machine Learning + Frontend</td>
+        <td>Machine Learning + Backend</td>
+        <td>Graphics + Design</td>
       </tr>
     </tbody>
     <style jsx>{`
@@ -30,12 +38,13 @@ export default () => (
       }
 
       table td {
-        border-left: 1px solid white;
+        border-left: 1px solid ${light ? '#555' : 'lightgrey'};
       }
 
       .roles {
-        font-size: 0.8em;
-        color: lightgrey;
+        font-size: 0.75em;
+        color: ${light ? '#555' : 'lightgrey'};
+        text-transform: uppercase;
       }
     `}</style>
   </table>
