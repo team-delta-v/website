@@ -34,10 +34,6 @@ export default () => {
         spatialization and text-to-speech to help the visually impaired see the
         world with sound using only a smartphone and headphones.
       </p>
-      <p>
-        Top 10 out of 240 college-level teams and 1st Place for Best Hack that
-        Helps the Community presented by CBRE
-      </p>
       <h3>
         <ExternalLink href="https://devpost.com/software/news-451">
           News 451
