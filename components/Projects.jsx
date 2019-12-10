@@ -74,6 +74,7 @@ export default () => {
           h3 {
             font-size: 30px;
             margin: 50px 0px 0px 0px;
+            text-align: left;
           }
 
           h4 {
