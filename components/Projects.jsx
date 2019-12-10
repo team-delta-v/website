@@ -28,7 +28,7 @@ export default () => {
         </ExternalLink>{' '}
         <Award>Top 10</Award>
       </h3>
-      <h4>PennApps 2018 Fall</h4>
+      <h4>PennApps 2019 Fall</h4>
       <p>
         Deep learning live object and depth recognition with binaural AR audio
         spatialization and text-to-speech to help the visually impaired see the
