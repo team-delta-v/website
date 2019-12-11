@@ -1,51 +1,73 @@
 import ExternalLink from './ExternalLink'
 
-export default ({ light }) => (
-  <table>
-    <tbody>
-      <tr className="names">
-        <td>
+export default () => (
+  <div className="root">
+    <div>
+      <div>
+        <h1>
           <ExternalLink href="https://dan.js.org">Daniel Huang</ExternalLink>
-        </td>
-        <td>
-          <ExternalLink href="https://jefferyy.dev">Jeffrey Yang</ExternalLink>
-        </td>
-        <td>
+        </h1>
+        <h2>President + Lead Dev</h2>
+      </div>
+      <div>
+        <h1>
+          <ExternalLink href="https://jeffreyy.dev">Jeffrey Yang</ExternalLink>
+        </h1>
+        <h2>Machine Learning + Frontend</h2>
+      </div>
+    </div>
+    <div>
+      <div>
+        <h1>
           <ExternalLink href="https://havish.dev">Havish Netla</ExternalLink>
-        </td>
-        <td>Max Hollis</td>
-      </tr>
-      <tr className="roles">
-        <td>President + Lead Dev</td>
-        <td>Machine Learning + Frontend</td>
-        <td>Machine Learning + Backend</td>
-        <td>Graphics + Design</td>
-      </tr>
-    </tbody>
+        </h1>
+        <h2>Machine Learning + Backend</h2>
+      </div>
+      <div>
+        <h1>Max Hollis</h1>
+        <h2>Graphics + Design</h2>
+      </div>
+    </div>
+
     <style jsx>{`
-      table {
-        margin: 0 auto;
-        border-collapse: collapse;
+      .root {
+        display: flex;
+        font-size: calc(0.2em + 12px);
       }
 
-      td {
-        padding: 0px 15px;
+      div {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .root * {
+        box-sizing: border-box;
+      }
+
+      h1,
+      h2 {
+        font-weight: normal;
+      }
+
+      h1 {
+        font-size: 1.1em;
+      }
+
+      h2 {
+        font-size: 0.8em;
+      }
+
+      .root > div {
+        display: flex;
+      }
+
+      .root > div > div {
         text-align: center;
-      }
-
-      table {
-        border-style: hidden;
-      }
-
-      table td {
-        border-left: 1px solid ${light ? '#555' : 'lightgrey'};
-      }
-
-      .roles {
-        font-size: 0.75em;
-        color: ${light ? '#555' : 'lightgrey'};
-        text-transform: uppercase;
+        padding: 0px 10px;
+        margin: 5px;
+        width: 190px;
+        box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px;
       }
     `}</style>
-  </table>
+  </div>
 )

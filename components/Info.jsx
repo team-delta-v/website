@@ -16,8 +16,9 @@ export default () => {
       style={{
         background: light ? 'white' : '#292a36',
         color: light ? 'black' : 'white',
-        boxShadow: '0px -5px 8px 0 rgba(0,0,0,0.2)',
+        boxShadow: '0px -5px 20px 0 rgba(0,0,0,0.3)',
         transition: '300ms',
+        padding: '30px',
       }}
       ref={scrollRef}
     >
