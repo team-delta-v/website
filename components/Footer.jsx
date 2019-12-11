@@ -9,7 +9,7 @@ export default () => {
         />
       </p>
       <p>
-        <b>Contact us:</b> team@deltav.ml <b>Verification:</b> Contact for
+        <b>Contact us:</b> team@deltav.ml <b>Verification:</b> Contact for the
         Official Document
       </p>
 
