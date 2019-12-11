@@ -2,6 +2,7 @@ import { useIntersection } from 'react-use'
 import { useRef } from 'react'
 import Projects from './Projects'
 import Intro from './Intro'
+import Footer from './Footer'
 
 export default () => {
   const scrollRef = useRef()
@@ -26,6 +27,9 @@ export default () => {
         <div style={{ maxWidth: '800px', margin: 'auto' }}>
           <Intro light={light} />
           <Projects light={light} />
+
+          <div style={{ borderTop: '1px grey solid', marginTop: '50px' }} />
+          <Footer />
           <br />
         </div>
       </div>
