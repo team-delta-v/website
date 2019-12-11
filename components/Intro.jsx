@@ -1,7 +1,7 @@
 import Names from './Names'
 
 export default ({ light }) => (
-  <div>
+  <div style={{ marginBottom: '100px' }}>
     <br />
     <h1
       style={{
