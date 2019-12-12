@@ -25,7 +25,7 @@ export default () => {
         }
 
         p {
-          color: #ccc;
+          color: grey;
           font-size: 12px;
           text-align: center;
         }
