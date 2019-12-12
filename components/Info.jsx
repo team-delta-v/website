@@ -28,7 +28,7 @@ export default () => {
           <Intro light={light} />
           <Projects light={light} />
 
-          <div style={{ borderTop: '1px grey solid', marginTop: '50px' }} />
+          <div style={{ borderTop: '1px #ccc solid', marginTop: '50px' }} />
           <Footer />
           <br />
         </div>
