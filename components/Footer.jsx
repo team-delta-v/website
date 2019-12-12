@@ -7,10 +7,7 @@ export default () => {
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_Maryland.svg/1500px-Flag_of_Maryland.svg.png"
           alt="Maryland Flag"
         />
-      </p>
-      <p>
-        <b>Contact us:</b> team@deltav.ml <b>Verification:</b> Contact for the
-        Official Document
+        <b>Contact us:</b> &apos;team&apos; at deltav.ml
       </p>
 
       <style jsx>{`
@@ -30,6 +27,7 @@ export default () => {
         p {
           color: grey;
           font-size: 12px;
+          text-align: center;
         }
       `}</style>
     </div>
