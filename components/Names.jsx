@@ -9,6 +9,12 @@ export default () => (
         </h1>
         <h2>President + Lead Dev</h2>
       </div>
+      <div>
+        <h1>
+          <ExternalLink href="https://jeffreyy.dev">Jeffrey Yang</ExternalLink>
+        </h1>
+        <h2>Machine Learning + Frontend</h2>
+      </div>
     </div>
     <div>
       <div>
