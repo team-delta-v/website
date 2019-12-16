@@ -20,10 +20,14 @@ export default ({ children }) => {
     <>
       <Head>
         <link
-          href="https://fonts.googleapis.com/css?family=Roboto:400,500|Comfortaa:300,400,500,600,700&display=swap&subset=cyrillic,cyrillic-ext,greek,latin-ext,vietnamese"
+          href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap"
           rel="stylesheet"
         />
-        <link rel="icon" type="image/png" href="/static/icon.png" />
+        <link
+          rel="icon"
+          type="image/png"
+          href="/static/icons/icon-512x512.png"
+        />
         <meta name="theme-color" content="#292a36" />
         <link rel="manifest" href="/static/manifest.json" />
         <title>Delta V</title>
