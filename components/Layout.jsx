@@ -40,7 +40,6 @@ export default ({ children }) => {
           sizes="16x16"
           href="/static/icons/favicon-16x16.png"
         />
-        <link rel="manifest" href="/static/icons/site.webmanifest" />
         <link
           rel="mask-icon"
           href="/static/icons/safari-pinned-tab.svg"
