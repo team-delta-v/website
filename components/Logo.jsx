@@ -12,7 +12,7 @@ export default () => (
           height: 120vmin;
           width: 180vmin;
 
-          transform: scale(1.01, 1);
+          transform: scale(1.01, 1) translateY(3.5%);
 
           text-align: center;
           overflow: visible;
