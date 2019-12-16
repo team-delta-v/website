@@ -1,97 +1,38 @@
-import React from 'react'
-import interpolate from 'color-interpolate'
-import clock from 'internet-time'
+export default () => (
+  <div>
+    <div className="container">
+      <iframe
+        src="https://dan.js.org/delta-v/logo-large"
+        title="Delta V Logo"
+      />
+    </div>
+    <style jsx>
+      {`
+        iframe {
+          height: 120vmin;
+          width: 180vmin;
 
-const colormap = interpolate([
-  '#ff0000',
-  '#ffae00',
-  '#ffe900',
-  '#15ff00',
-  '#00ffe5',
-  '#2237d6',
-  '#5d00c1',
-  '#ff00ff',
-  '#a3007a',
-  '#ff0000',
-])
+          transform: scale(1.01, 1) translateY(3.5%);
 
-function reduce(time) {
-  return (time / 20000) % 1
-}
+          text-align: center;
+          overflow: visible;
+          margin: 0;
 
-function getColor(time) {
-  const direction = (time / 40) % 360
-  const color1 = colormap(reduce(time - 4000))
-  const color2 = colormap(reduce(time - 2000))
-  const color3 = colormap(reduce(time))
-  return `linear-gradient(${direction}deg, ${color1}, ${color2}, ${color3})`
-}
+          user-select: none;
 
-export default class extends React.Component {
-  state = {}
+          border: 0;
+        }
 
-  componentDidMount() {
-    window.addEventListener('load', () => {
-      this.setState({ loaded: true })
-    })
-    this.animate()
-  }
-
-  componentWillUnmount() {
-    cancelAnimationFrame(this.raf)
-  }
-
-  animate = () => {
-    this.raf = requestAnimationFrame(() => {
-      const time = clock.now()
-      this.setState({ color: getColor(time) })
-      this.animate()
-    })
-  }
-
-  render() {
-    return (
-      <div>
-        <div className="container">
-          <p
-            className="text"
-            style={{
-              backgroundImage: this.state.color,
-              WebkitBackgroundClip: 'text',
-              WebkitTextFillColor: 'transparent',
-            }}
-          >
-            ΔV
-          </p>
-        </div>
-        <style jsx>
-          {`
-            .text {
-              opacity: ${this.state.loaded ? 1 : 0};
-              transition: opacity 300ms;
-
-              font-size: 80vmin;
-              font-family: Comfortaa, Roboto, sans-serif;
-              font-weight: 300;
-
-              transform: scale(1.01, 1) translateY(6%);
-
-              text-align: center;
-              overflow: visible;
-              margin: 0;
-
-              user-select: none;
-            }
-
-            .container {
-              height: 100vh;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-            }
-          `}
-        </style>
-      </div>
-    )
-  }
-}
+        .container {
+          height: 200vh;
+          width: 200vw;
+          margin-top: -50vh;
+          margin-left: -50vw;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      `}
+    </style>
+  </div>
+)

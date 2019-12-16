@@ -1,3 +1,5 @@
+import ExternalLink from './ExternalLink'
+
 export default () => {
   return (
     <div>
@@ -9,10 +11,20 @@ export default () => {
         />
         <b>Contact us:</b> &apos;team&apos; at deltav.ml
       </p>
+      <p>
+        <b>Sponsored by: </b>{' '}
+        <ExternalLink href="https://browserstack.com">
+          <img
+            src="/static/browserstack.svg"
+            alt="BrowserStack"
+            style={{ height: '1.3em', verticalAlign: 'middle' }}
+          />
+        </ExternalLink>
+      </p>
 
       <style jsx>{`
         div {
-          margin-top: 50px;
+          margin-top: 10px;
           text-align: center;
         }
 

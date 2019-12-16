@@ -24,7 +24,7 @@ export default () => (
         <h2>Machine Learning + Backend</h2>
       </div>
       <div>
-        <h1>Max Hollis</h1>
+        <h1>Max Bollis</h1>
         <h2>Graphics + Design</h2>
       </div>
     </div>
