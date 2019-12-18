@@ -21,7 +21,7 @@ export default () => (
         <h1>
           <ExternalLink href="https://havish.dev">Havish Netla</ExternalLink>
         </h1>
-        <h2>Front End + Back End</h2>
+        <h2>Frontend + Backend</h2>
       </div>
       <div>
         <h1>Max Hollis</h1>
