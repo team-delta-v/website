@@ -13,7 +13,7 @@ export default () => (
         <h1>
           <ExternalLink href="https://jeffreyy.dev">Jeffrey Yang</ExternalLink>
         </h1>
-        <h2>Machine Learning + Artificial Intelligence</h2>
+        <h2>Machine Learning + AI</h2>
       </div>
     </div>
     <div>
