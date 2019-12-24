@@ -11,7 +11,15 @@ export default ({ light }) => (
         marginTop: '60px',
       }}
     >
-      Delta V
+      <img
+        src="/static/logo.svg"
+        alt="Logo"
+        style={{
+          height: '1em',
+          transition: '300ms',
+          filter: light && 'invert(1)',
+        }}
+      />
     </h1>
 
     <Names light={light} />
