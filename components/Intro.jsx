@@ -30,7 +30,7 @@ export default ({ light }) => (
         fontSize: '25px',
       }}
     >
-      Maryland&apos;s top high school hackathon team
+      Maryland&apos;s top high school programming team
     </p>
   </div>
 )
