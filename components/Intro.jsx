@@ -1,7 +1,7 @@
 import Names from './Names'
 
-export default () => (
-  <div>
+export default ({ light }) => (
+  <div style={{ marginBottom: '100px' }}>
     <br />
     <h1
       style={{
@@ -11,13 +11,26 @@ export default () => (
         marginTop: '60px',
       }}
     >
-      Delta V
+      <img
+        src="/static/logo.svg"
+        alt="Logo"
+        style={{
+          maxHeight: '1em',
+          maxWidth: '100%',
+          transition: '300ms',
+          filter: light && 'invert(1)',
+        }}
+      />
     </h1>
-    <Names />
-    <br />
-    <p>
-      We are a team of high school students based in Maryland who compete in
-      hackathons to practice our programming skills and win prizes.
+
+    <Names light={light} />
+    <p
+      style={{
+        textAlign: 'center',
+        fontSize: '25px',
+      }}
+    >
+      Maryland&apos;s top high school programming team
     </p>
   </div>
 )

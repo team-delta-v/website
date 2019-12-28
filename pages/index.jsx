@@ -1,7 +1,6 @@
 import Layout from '../components/Layout'
+import Info from '../components/Info'
 import Logo from '../components/Logo'
-import Projects from '../components/Projects'
-import Intro from '../components/Intro'
 
 export default () => (
   <Layout>
@@ -10,20 +9,7 @@ export default () => (
         <Logo />
       </div>
       <div className="parallax-layer parallax-layer-base">
-        <div
-          style={{
-            background: '#292a36',
-            boxShadow: '0px -5px 8px 0 rgba(0,0,0,0.2)',
-          }}
-        >
-          <div style={{ margin: '15px' }}>
-            <div style={{ maxWidth: '800px', margin: 'auto' }}>
-              <Intro />
-              <Projects />
-              <br />
-            </div>
-          </div>
-        </div>
+        <Info />
       </div>
     </div>
     <style jsx global>
