@@ -15,7 +15,8 @@ export default ({ light }) => (
         src="/static/logo.svg"
         alt="Logo"
         style={{
-          height: '1em',
+          maxHeight: '1em',
+          maxWidth: '100%',
           transition: '300ms',
           filter: light && 'invert(1)',
         }}
