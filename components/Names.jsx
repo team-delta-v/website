@@ -23,10 +23,6 @@ export default () => (
         </h1>
         <h2>Frontend + Backend</h2>
       </div>
-      <div>
-        <h1>Max Hollis</h1>
-        <h2>Graphics + Design</h2>
-      </div>
     </div>
 
     <style jsx>{`
