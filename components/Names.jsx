@@ -11,7 +11,7 @@ export default () => (
       </div>
       <div>
         <h1>
-          <ExternalLink href="https://jeffreyy.dev">Jeffrey Yang</ExternalLink>
+          <ExternalLink href="https://havish.dev">Havish Netla</ExternalLink>
         </h1>
         <h2>Machine Learning + AI</h2>
       </div>
@@ -19,7 +19,7 @@ export default () => (
     <div>
       <div>
         <h1>
-          <ExternalLink href="https://havish.dev">Havish Netla</ExternalLink>
+          <ExternalLink href="https://jeffreyy.dev">Jeffrey Yang</ExternalLink>
         </h1>
         <h2>Frontend + Backend</h2>
       </div>
