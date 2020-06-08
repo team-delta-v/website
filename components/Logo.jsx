@@ -35,8 +35,6 @@ export default () => {
             height: 100%;
             width: 100%;
 
-            transform: scale(2);
-
             text-align: center;
             overflow: visible;
             margin: 0;
@@ -54,6 +52,7 @@ export default () => {
             display: flex;
             justify-content: center;
             align-items: center;
+            transform: scale(2);
           }
         `}
       </style>
