@@ -32,10 +32,8 @@ export default () => {
       <style jsx>
         {`
           iframe {
-            height: 120vmin;
-            width: 180vmin;
-
-            transform: scale(1.01, 1) translateY(2.3%);
+            height: 100%;
+            width: 100%;
 
             text-align: center;
             overflow: visible;
@@ -49,13 +47,12 @@ export default () => {
           }
 
           .container {
-            height: 200vh;
-            width: 200vw;
-            margin-top: -50vh;
-            margin-left: -50vw;
+            height: 100vh;
+            width: 100vw;
             display: flex;
             justify-content: center;
             align-items: center;
+            transform: scale(2);
           }
         `}
       </style>
