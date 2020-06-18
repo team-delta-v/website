@@ -6,6 +6,25 @@ export default () => {
     <div>
       <h2>Our Projects</h2>
       <h3>
+        <ExternalLink href="https://devpost.com/software/supplysmart">
+          SupplySmart
+        </ExternalLink>{' '}
+        <Award>First Place (finance track)</Award>
+      </h3>
+      <h4>HooHacks 2020</h4>
+      <img
+        src="https://dan.js.org/static/supplysmart.png"
+        alt="SupplySmart website"
+      />
+      <p>
+        Social media data analyzer that leverages a Rust-based natural language
+        processing engine and a TensorFlow deep learning model to efficiently
+        determine the retail availability of commonly needed physical items,
+        based on user-generated social media posts. Users are able to locate
+        stores and other retail outlets close to their physical location that
+        are in stock with the user's requested items.
+      </p>
+      <h3>
         <ExternalLink href="https://2019.spaceappschallenge.org/challenges/living-our-world/spot-fire-v20/teams/delta-v/project">
           InfernoAI
         </ExternalLink>{' '}
