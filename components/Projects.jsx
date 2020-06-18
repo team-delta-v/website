@@ -6,7 +6,7 @@ export default () => {
     <div>
       <h2>Our Projects</h2>
       <h3>
-        <ExternalLink href="https://devpost.com/software/supplysmart">
+        <ExternalLink href="https://devpost.com/software/toolegaldidntread">
           TooLegalDidntRead
         </ExternalLink>{' '}
         <Award>First Place</Award>
