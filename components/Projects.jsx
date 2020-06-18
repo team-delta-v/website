@@ -22,7 +22,7 @@ export default () => {
         determine the retail availability of commonly needed physical items,
         based on user-generated social media posts. Users are able to locate
         stores and other retail outlets close to their physical location that
-        are in stock with the user's requested items.
+        are in stock with the user&apos;s requested items.
       </p>
       <h3>
         <ExternalLink href="https://2019.spaceappschallenge.org/challenges/living-our-world/spot-fire-v20/teams/delta-v/project">
