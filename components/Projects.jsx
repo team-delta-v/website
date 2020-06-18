@@ -18,8 +18,8 @@ export default () => {
       />
       <p>
         NLP legal document analyzer that summarizes and condenses legally
-        binding documents, such as terms of service or privacy policy. Users
-        are able to understand their rights and legal limitations through deep
+        binding documents, such as terms of service or privacy policy. Users are
+        able to understand their rights and legal limitations through deep
         learning analysis of revelant US law, including case law and state law.
       </p>
       <h3>
