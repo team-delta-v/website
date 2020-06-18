@@ -7,6 +7,23 @@ export default () => {
       <h2>Our Projects</h2>
       <h3>
         <ExternalLink href="https://devpost.com/software/supplysmart">
+          TooLegalDidntRead
+        </ExternalLink>{' '}
+        <Award>First Place</Award>
+      </h3>
+      <h4>hths.hacks() 2020</h4>
+      <img
+        src="https://dan.js.org/static/tldr.png"
+        alt="TooLegalDidntRead website"
+      />
+      <p>
+        NLP legal document analyzer that summarizes and condenses legally
+        binding documents, such as terms of service or privacy policy. Users
+        are able to understand their rights and legal limitations through deep
+        learning analysis of revelant US law, including case law and state law.
+      </p>
+      <h3>
+        <ExternalLink href="https://devpost.com/software/supplysmart">
           SupplySmart
         </ExternalLink>{' '}
         <Award>First Place (finance track)</Award>
