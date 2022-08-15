@@ -25,7 +25,7 @@ export default () => {
         ref={intersectionRef}
       >
         <iframe
-          src="https://dan.js.org/delta-v/logo-transparent"
+          src="https://danielh.cc/delta-v/logo-transparent"
           title="Delta V Logo"
         />
       </div>
