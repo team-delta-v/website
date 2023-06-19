@@ -1111,6 +1111,11 @@
     unique-filename "^1.1.1"
     which "^1.3.1"
 
+"@ganorberg/data-structures-javascript@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@ganorberg/data-structures-javascript/-/data-structures-javascript-1.0.0.tgz#35d6913dc3bb427385a4216540116473d96e4bd5"
+  integrity sha512-aLjQLVHpXVKE84W8RmIlpuikCEpGX+smdSVHvAmY7cZadrq1b32PzdXHilmiYbYlHGpVS89e3lrcmgE/eT0vxQ==
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -5619,13 +5624,17 @@ inquirer@^6.4.1:
     strip-ansi "^5.1.0"
     through "^2.3.6"
 
-internet-time@^0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/internet-time/-/internet-time-0.0.5.tgz#849402c460b429d8d67d822d8027f6896a761f76"
-  integrity sha512-z0iJzyuD5QHuAPzhAj+37LVpFXs2fL+wyTuayYtVQxssgtF639KfY1OKABi1C+HF/6F+nIERPGZCwTUHc1yxTQ==
+internet-time@^0.0.18:
+  version "0.0.18"
+  resolved "https://registry.yarnpkg.com/internet-time/-/internet-time-0.0.18.tgz#d46eb404ffc13517a87f63946f261b3519ce7c5a"
+  integrity sha512-gzY8uiQBqlHrGn94Hsv+Qo9II1lrmiOqogf83Rs/XdMT4Unsb5nAz9vhscjLOAyO0B8luSQ0ZYk6EHMzUoZCEA==
   dependencies:
+    "@ganorberg/data-structures-javascript" "^1.0.0"
     clocksy "^1.1.0"
+    isomorphic-fetch "^2.2.1"
+    isomorphic-ws "^4.0.1"
     socket.io-client "^2.2.0"
+    ws "^7.2.3"
 
 invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
@@ -5951,13 +5960,18 @@ isobject@^4.0.0:
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-4.0.0.tgz#3f1c9155e73b192022a80819bacd0343711697b0"
   integrity sha512-S/2fF5wH8SJA/kmwr6HYhK/RI/OkhD84k8ntalo0iJjZikgq1XFvR5M8NPT1x5F7fBwCG3qHfnzeP/Vh/ZxCUA==
 
-isomorphic-fetch@^2.1.1:
+isomorphic-fetch@^2.1.1, isomorphic-fetch@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/isomorphic-fetch/-/isomorphic-fetch-2.2.1.tgz#611ae1acf14f5e81f729507472819fe9733558a9"
-  integrity sha1-YRrhrPFPXoH3KVB0coGf6XM1WKk=
+  integrity sha512-9c4TNAKYXM5PRyVcwUZrF3W09nQ+sO7+jydgs4ZGW9dhsLG2VOlISJABombdQqQRXCwuYG3sYV/puGf5rp0qmA==
   dependencies:
     node-fetch "^1.0.1"
     whatwg-fetch ">=0.10.0"
+
+isomorphic-ws@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/isomorphic-ws/-/isomorphic-ws-4.0.1.tgz#55fd4cd6c5e6491e76dc125938dd863f5cd4f2dc"
+  integrity sha512-BhBvN2MBpWTaSHdWRb/bwdZJ1WaehQ2L1KngkCkfLUGF0mAWAT1sQUQacEmQ0jXkFw/czDXPNQSL5u2/Krsz1w==
 
 isstream@~0.1.2:
   version "0.1.2"
@@ -10586,6 +10600,11 @@ write@1.0.3:
   integrity sha512-/lg70HAjtkUgWPVZhZcm+T4hkL8Zbtp1nFNOn3lRrxnlv50SRBv7cR7RqR+GMsd3hUXy9hWBo4CHTbFTcOYwig==
   dependencies:
     mkdirp "^0.5.1"
+
+ws@^7.2.3:
+  version "7.5.9"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.9.tgz#54fa7db29f4c7cec68b1ddd3a89de099942bb591"
+  integrity sha512-F+P9Jil7UiSKSkppIiD94dN07AwvFixvLIj1Og1Rl9GGMuNipJnV9JzjD6XuqmAeiswGvUmNLjr5cFuXwNS77Q==
 
 ws@~6.1.0:
   version "6.1.4"

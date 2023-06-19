@@ -9,7 +9,7 @@
   "dependencies": {
     "clocksy": "^1.1.0",
     "color-interpolate": "^1.0.4",
-    "internet-time": "^0.0.5",
+    "internet-time": "^0.0.18",
     "next": "^9.1.5",
     "next-offline": "^4.0.6",
     "react": "^16.12.0",
